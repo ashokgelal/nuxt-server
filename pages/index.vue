@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        cleavr-sample-server3
+        cleavr-sample-server4
       </h1>
       <div class="links">
         <a
