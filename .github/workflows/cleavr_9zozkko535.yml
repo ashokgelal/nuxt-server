@@ -37,7 +37,7 @@ jobs:
 
       - name: Set up secret file
         env:
-          DEBUG_SECRET_KEY:'{{ secrets.DEPLOY_TRIGGER_HOOK_cleavr_9zozkko535 }}'
+          DEBUG_SECRET_KEY:'${{ secrets.DEPLOY_TRIGGER_HOOK_cleavr_9zozkko535 }}'
         run: |
           echo $DEBUG_SECRET_KEY >> secrets.txt
 
